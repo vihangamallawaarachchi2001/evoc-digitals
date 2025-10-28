@@ -1,6 +1,8 @@
+import CommunityEngagementSection from '@/components/about/CommunityEngagementSection'
 import CorePrinciplesSection from '@/components/about/CorePrinciplesSection'
 import HeroSection from '@/components/about/HeroSection'
 import LeadershipSection from '@/components/about/LeadershipSection'
+import MissionQuoteSection from '@/components/about/MissionQuoteSection'
 import MissionVisionSection from '@/components/about/MissionVisionSection'
 import StorySection from '@/components/about/StorySection'
 import Footer from '@/components/Footer'
@@ -17,6 +19,8 @@ const page = () => {
         <MissionVisionSection />
         <CorePrinciplesSection />
         <LeadershipSection />
+        <CommunityEngagementSection />
+        <MissionQuoteSection />
       </main>
       <Footer />
     </>
