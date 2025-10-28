@@ -23,6 +23,7 @@ export default function CommunityEngagementSection() {
               width={800}
               height={500}
               className="rounded-xl shadow-lg"
+              autoPlay
             />
           </div>
         </div>
