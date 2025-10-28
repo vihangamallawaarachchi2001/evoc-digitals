@@ -34,10 +34,10 @@ export default function LeadershipSection() {
                   src={leader.image}
                   alt={leader.name}
                   fill
-                  className="rounded-full object-cover border-4 border-green-400"
+                  className="rounded-full object-cover border-4 border-[#55C514]"
                 />
               </div>
-              <h3 className="text-xl font-bold text-green-400 mb-1">{leader.name}</h3>
+              <h3 className="text-xl font-bold text-[#55C514] mb-1">{leader.name}</h3>
               <p className="text-gray-300 font-medium mb-3">{leader.role}</p>
               <p className="text-gray-400 text-sm">{leader.bio}</p>
             </div>
