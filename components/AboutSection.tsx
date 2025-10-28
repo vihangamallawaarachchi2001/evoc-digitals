@@ -4,10 +4,10 @@ import Image from "next/image";
 const AboutSection = () => {
   return (
     <section className="bg-black text-gray-300 py-20 px-6 flex items-center justify-center">
-      <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-between gap-12">
+      <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-between ">
 
         {/* Left - Image */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-full flex justify-center">
           <Image
             src="/image copy 3.png"
             alt="EVOC Digital team"
@@ -18,7 +18,7 @@ const AboutSection = () => {
         </div>
 
         {/* Right - Content */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div className="w-full text-center lg:text-left">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
             About <span className="text-[#55C514]">EVOC Digital</span>
           </h2>
