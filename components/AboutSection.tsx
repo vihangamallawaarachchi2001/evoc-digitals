@@ -38,7 +38,7 @@ const AboutSection = () => {
           <div className="mt-8">
             <a
               href="/about"
-              className="inline-block bg-[#55C514] text-black font-semibold px-6 py-3 rounded-full hover:bg-[#69e226] transition-all"
+              className="inline-block bg-[#55C514] text-black font-semibold px-6 py-3 rounded-[10px] hover:bg-[#69e226] transition-all"
             >
               Learn More About Us
             </a>
