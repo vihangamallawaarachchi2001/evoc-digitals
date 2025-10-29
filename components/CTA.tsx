@@ -14,7 +14,7 @@ export default function CTASection() {
           </p>
           <Link
             href="#contact"
-            className="inline-block bg-black text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-800 transition"
+            className="inline-block bg-white text-[#55C514] font-bold py-3 px-8 rounded-lg transition"
           >
             Let's Talk
           </Link>
