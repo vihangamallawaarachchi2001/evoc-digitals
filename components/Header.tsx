@@ -93,7 +93,7 @@ const Header = () => {
 
       {/* Mobile Navigation Dropdown */}
       {menuOpen && (
-        <div className="absolute top-20 left-0 w-full border-t border-gray-100 shadow-md md:hidden animate-slide-down">
+        <div className="absolute bg-black top-20 left-0 w-full border-t border-gray-100 shadow-md md:hidden animate-slide-down">
           <nav className="flex flex-col items-start p-4 space-y-3">
             {navItems.map((item) => {
               const isActive = pathname === item.path;
