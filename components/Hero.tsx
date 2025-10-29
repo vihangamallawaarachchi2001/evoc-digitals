@@ -48,7 +48,7 @@ const Hero = () => {
 
           <Link
             href="#learn-more"
-            className="border border-[#55C514] text-[#55C514] text-center font-bold py-3 px-6 rounded w-full sm:w-[200px] md:w-[240px] lg:w-[281px] transition duration-300 hover:bg-[#55C514] hover:text-black"
+            className=" bg-[#404040CC] text-[#ffffff] text-center font-bold py-3 px-6 rounded w-full sm:w-[200px] md:w-[240px] lg:w-[281px] transition duration-300 hover:bg-[#55C514] hover:text-black"
           >
             Learn More
           </Link>
