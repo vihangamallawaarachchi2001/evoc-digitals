@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="max-w-7xl w-full flex flex-col gap-6 md:gap-8 pt-10 sm:pt-16 md:pt-20">
 
         {/* Headings */}
-        <h1 className="font-extrabold text-[#55C514] leading-4 text-4xl sm:text-5xl md:text-7xl lg:text-[84px] max-w-[1223px]">
+        <h1 className="font-extrabold text-[#55C514] lg:leading-4 text-4xl sm:text-5xl md:text-7xl lg:text-[84px] max-w-[1223px]">
           ADVERTISING ENTHUSIASM
         </h1>
 
