@@ -5,20 +5,20 @@ const leadership = [
     name: "Roshan Thiranjana",
     role: "Chief Executive Officer",
     bio: " Roshan leads our vision with relentless drive and strategic insight.",
-    image: "/image copy 4.png"
+    image: "/roshan.jpg"
   },
   {
     name: "Sethuli Wijesekara",
     role: "Chief Creative Officer",
     bio: "Sethuli crafts compelling narratives that turn brands into cultural icons.",
-    image: "/image copy 5.png"
+    image: "/sethuli.png"
   },
-  // {
-  //   name: "Michael Chen",
-  //   role: "Chief Technology Officer",
-  //   bio: "Michael builds the tech backbone that powers our campaigns. He believes data + creativity = unstoppable growth.",
-  //   image: "/placeholder-ceo-3.jpg"
-  // }
+  {
+    name: "",
+    role: "Chief Technology Officer",
+    bio: " builds the tech backbone that powers our campaigns. She believes data + creativity = unstoppable growth.",
+    image: "/Gemini_Generated_Image_p70x41p70x41p70x.png"
+  }
 ];
 
 export default function LeadershipSection() {
@@ -26,7 +26,7 @@ export default function LeadershipSection() {
     <section className="py-16 px-4 ">
       <div className="container mx-auto max-w-7xl">
         <h2 className="text-3xl font-bold text-center mb-12">Meet the Leadership</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {leadership.map((leader, index) => (
             <div key={index} className="text-center">
               <div className="relative w-40 h-40 mx-auto mb-4">
